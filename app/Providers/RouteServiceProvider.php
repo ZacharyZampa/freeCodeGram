@@ -23,6 +23,10 @@ class RouteServiceProvider extends ServiceProvider
      */
     public const HOME = '/home';
 
+    public const FEED = '/feed';
+
+    public const ROOT = "/";
+
     /**
      * Define your route model bindings, pattern filters, etc.
      *
