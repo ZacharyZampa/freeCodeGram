@@ -10,10 +10,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a674bfb2-f7a4-4ad8-9405-0c0d347607ef" name="Default Changelist" comment="Finish Tutorial">
+    <list default="true" id="a674bfb2-f7a4-4ad8-9405-0c0d347607ef" name="Default Changelist" comment="Add some links for quality of life improvement">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserAdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/EditUserRolePermissions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/userAdmin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,18 +168,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/storage/profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Auth" />
+      <recent name="$PROJECT_DIR$/resources/views/profiles" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/js/components" />
       <recent name="$PROJECT_DIR$/public/storage/profile" />
       <recent name="$PROJECT_DIR$/resources/views/posts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/profiles" />
     </key>
   </component>
   <component name="RunManager">
@@ -187,7 +200,10 @@
       <option name="presentableId" value="Default" />
       <updated>1599331302369</updated>
       <workItem from="1599331303396" duration="1487000" />
-      <workItem from="1599332877417" duration="17820000" />
+      <workItem from="1599332877417" duration="18435000" />
+      <workItem from="1599432476365" duration="171000" />
+      <workItem from="1599676783697" duration="697000" />
+      <workItem from="1599843067402" duration="11700000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Tutorial">
       <created>1599410862756</created>
@@ -196,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599410862756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add some links for quality of life improvement">
+      <created>1599411981626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599411981626</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,13 +235,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finish Tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Tutorial" />
+    <MESSAGE value="Add some links for quality of life improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some links for quality of life improvement" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1122" y="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599846267433">
+      <screen x="-3440" y="23" width="3440" height="1417" />
+    </state>
+    <state x="-1122" y="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-3440.23.3440.1417/0.23.1792.1097@-3440.23.3440.1417" timestamp="1599846267433" />
     <state x="2444" y="635" width="434" height="271" key="Github.ShareDialog" timestamp="1599341836571">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
@@ -247,13 +276,18 @@
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="2089" y="370" key="SettingsEditor/0.23.3440.1417@0.23.3440.1417" timestamp="1599408489196" />
-    <state x="2180" y="471" key="Vcs.Push.Dialog.v2" timestamp="1599410864110">
+    <state x="2180" y="471" key="Vcs.Push.Dialog.v2" timestamp="1599411985248">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state x="2180" y="471" key="Vcs.Push.Dialog.v2/0.23.3440.1417@0.23.3440.1417" timestamp="1599410864110" />
-    <state x="2245" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1599410237661">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state x="2180" y="471" key="Vcs.Push.Dialog.v2/0.23.3440.1417@0.23.3440.1417" timestamp="1599411985248" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1599855446332">
+      <screen x="-3440" y="23" width="3440" height="1417" />
     </state>
+    <state width="600" height="428" key="javadoc.popup/-3440.23.3440.1417/0.23.1792.1097@-3440.23.3440.1417" timestamp="1599855446332" />
+    <state x="-1195" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1599854240428">
+      <screen x="-3440" y="23" width="3440" height="1417" />
+    </state>
+    <state x="-1195" y="348" width="670" height="676" key="search.everywhere.popup/-3440.23.3440.1417/0.23.1792.1097@-3440.23.3440.1417" timestamp="1599854240428" />
     <state x="2245" y="348" width="670" height="676" key="search.everywhere.popup/0.23.3440.1417@0.23.3440.1417" timestamp="1599410237661" />
   </component>
 </project>

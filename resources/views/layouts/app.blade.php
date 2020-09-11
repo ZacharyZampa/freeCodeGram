@@ -65,6 +65,9 @@
                                     <a class="dropdown-item" href="/feed">
                                         Feed
                                     </a>
+                                    <a class="dropdown-item" href="/user-admin">
+                                        User Administration
+                                    </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
