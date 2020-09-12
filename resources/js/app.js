@@ -23,6 +23,8 @@ Vue.component('follow-button', require('./components/FollowButton.vue').default)
 
 Vue.component('edit-user-role-permissions', require('./components/EditUserRolePermissions.vue').default);
 
+Vue.component('delete-post-button', require('./components/DeletePostButton.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

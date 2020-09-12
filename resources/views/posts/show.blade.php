@@ -20,7 +20,7 @@
                                 @if ($post->user->id != auth()->user()->id )
                                     <follow-button user-id="{{ $post->user->id }}" follows="{{ $follows }}"></follow-button>
                                 @else
-                                    <button class="btn btn-outline-danger" @click="$event">Delete Post</button>
+                                    <delete-post-button post="{{ $post->id }}" userid="{{ $post->user_id }}"></delete-post-button>
                                 @endif
                             </div>
                         </div>
@@ -40,3 +40,9 @@
         </div>
     </div>
 @endsection
+<script>
+    import DeletePostButton from "../../js/components/DeletePostButton";
+    export default {
+        components: {DeletePostButton}
+    }
+</script>

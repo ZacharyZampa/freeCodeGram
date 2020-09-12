@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Post;
-use App\User;
 use Illuminate\Http\Request;
 use Intervention\Image\Facades\Image;
 
@@ -54,6 +53,15 @@ class PostsController extends Controller
     public function show(\App\Post $post) {
         $follows = (auth()->user()) ? auth()->user()->following->contains($post->user->id) : false;
         return view('posts.show', compact('post', 'follows'));
+    }
+
+    public function destroy(Post $post) {
+        if (auth()->user()->id == $post->user_id) {
+            Post::destroy($post->id);
+            return '200';
+        }
+
+        return '401';
     }
 
 }

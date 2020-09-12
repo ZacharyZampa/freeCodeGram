@@ -23,6 +23,7 @@ Route::post('follow/{user}', 'FollowsController@store');
 
 Route::get('/p/create', 'PostsController@create');
 Route::get('/p/{post}', 'PostsController@show');
+Route::delete('/p/{post}', 'PostsController@destroy');
 Route::post('/p', 'PostsController@store');
 Route::get('/feed', 'PostsController@index');
 
