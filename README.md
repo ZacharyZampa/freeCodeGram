@@ -3,7 +3,7 @@
 I need to learn Laravel for my Senior Design Project so I followed this tutorial at: https://youtu.be/ImtZ5yENzgE
 
 
-When I have time maybe I will add to this as Laravel is pretty cool.
+Overtime I will continue adding to this as Laravel is pretty cool.
 
 
 ## Screenshots
