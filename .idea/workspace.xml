@@ -10,13 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a674bfb2-f7a4-4ad8-9405-0c0d347607ef" name="Default Changelist" comment="Add pagination and authorization to user dashboard">
-      <change afterPath="$PROJECT_DIR$/resources/views/profiles/followers.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profiles/following.blade.php" afterDir="false" />
+    <list default="true" id="a674bfb2-f7a4-4ad8-9405-0c0d347607ef" name="Default Changelist" comment="Can view followers and following of a user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +193,7 @@
       <workItem from="1599332877417" duration="18435000" />
       <workItem from="1599432476365" duration="171000" />
       <workItem from="1599676783697" duration="697000" />
-      <workItem from="1599843067402" duration="18153000" />
+      <workItem from="1599843067402" duration="18920000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Tutorial">
       <created>1599410862756</created>
@@ -234,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599870019862</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Can view followers and following of a user">
+      <created>1599874056844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599874056844</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +261,8 @@
     <MESSAGE value="Add some links for quality of life improvement" />
     <MESSAGE value="Add about half of user management dashboard" />
     <MESSAGE value="Add pagination and authorization to user dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pagination and authorization to user dashboard" />
+    <MESSAGE value="Can view followers and following of a user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can view followers and following of a user" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1208" y="387" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599872143607">
@@ -294,11 +298,11 @@
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="2089" y="370" key="SettingsEditor/0.23.3440.1417@0.23.3440.1417" timestamp="1599408489196" />
-    <state x="992" y="370" key="Vcs.Push.Dialog.v2" timestamp="1599870021416">
+    <state x="992" y="370" key="Vcs.Push.Dialog.v2" timestamp="1599874058628">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="-1260" y="471" key="Vcs.Push.Dialog.v2/-3440.23.3440.1417/0.23.1792.1097@-3440.23.3440.1417" timestamp="1599857904121" />
-    <state x="992" y="370" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1599870021416" />
+    <state x="992" y="370" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1599874058628" />
     <state x="2180" y="471" key="Vcs.Push.Dialog.v2/0.23.3440.1417@0.23.3440.1417" timestamp="1599411985248" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1599855446332">
       <screen x="-3440" y="23" width="3440" height="1417" />
