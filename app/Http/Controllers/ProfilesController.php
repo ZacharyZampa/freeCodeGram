@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Profile;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
 use Intervention\Image\Facades\Image;
 
 class ProfilesController extends Controller
@@ -70,5 +72,24 @@ class ProfilesController extends Controller
         ));
 
         return redirect("/profile/{$user->id}");
+    }
+
+    public function following(User $user) {
+        // get all users current user is following
+        $userIds = $user->following()->pluck('profiles.user_id');
+
+        $users = User::whereIn('id', $userIds)->get();
+
+        return view('profiles.following', compact('users', 'user'));
+    }
+
+    public function followers(User $user) {
+        $profile = $user->profile;
+        // get all users current user is following
+        $userIds = $profile->followers()->pluck('users.id');
+
+        $users = User::whereIn('id', $userIds)->get();
+
+        return view('profiles.followers', compact('users', 'profile'));
     }
 }

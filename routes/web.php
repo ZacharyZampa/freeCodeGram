@@ -29,6 +29,8 @@ Route::get('/feed', 'PostsController@index');
 Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
 Route::get('/profile/{user}/edit', 'ProfilesController@edit')->name('profile.edit');
 Route::patch('/profile/{user}', 'ProfilesController@update')->name('profile.update');
+Route::get('/profile/{user}/following', 'ProfilesController@following');
+Route::get('/profile/{user}/followers', 'ProfilesController@followers');
 
 
 Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
