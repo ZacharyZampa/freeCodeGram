@@ -22,5 +22,10 @@
             @endforeach
             </tbody>
         </table>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                {{ $users->links() }}
+            </div>
+        </div>
     </div>
 @endsection

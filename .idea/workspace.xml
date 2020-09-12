@@ -10,18 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a674bfb2-f7a4-4ad8-9405-0c0d347607ef" name="Default Changelist" comment="Add some links for quality of life improvement">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserAdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/EditUserRolePermissions.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/userAdmin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="a674bfb2-f7a4-4ad8-9405-0c0d347607ef" name="Default Changelist" comment="Add about half of user management dashboard">
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/AdminMiddleware.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/userAdmin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/userAdmin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -203,7 +196,7 @@
       <workItem from="1599332877417" duration="18435000" />
       <workItem from="1599432476365" duration="171000" />
       <workItem from="1599676783697" duration="697000" />
-      <workItem from="1599843067402" duration="11700000" />
+      <workItem from="1599843067402" duration="14330000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Tutorial">
       <created>1599410862756</created>
@@ -219,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599411981626</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add about half of user management dashboard">
+      <created>1599857900696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599857900696</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add about half of user management dashboard">
+      <created>1599857920637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599857920637</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +248,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finish Tutorial" />
     <MESSAGE value="Add some links for quality of life improvement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some links for quality of life improvement" />
+    <MESSAGE value="Add about half of user management dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add about half of user management dashboard" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1122" y="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599846267433">
@@ -276,9 +284,10 @@
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="2089" y="370" key="SettingsEditor/0.23.3440.1417@0.23.3440.1417" timestamp="1599408489196" />
-    <state x="2180" y="471" key="Vcs.Push.Dialog.v2" timestamp="1599411985248">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state x="-1260" y="471" key="Vcs.Push.Dialog.v2" timestamp="1599857904121">
+      <screen x="-3440" y="23" width="3440" height="1417" />
     </state>
+    <state x="-1260" y="471" key="Vcs.Push.Dialog.v2/-3440.23.3440.1417/0.23.1792.1097@-3440.23.3440.1417" timestamp="1599857904121" />
     <state x="2180" y="471" key="Vcs.Push.Dialog.v2/0.23.3440.1417@0.23.3440.1417" timestamp="1599411985248" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1599855446332">
       <screen x="-3440" y="23" width="3440" height="1417" />

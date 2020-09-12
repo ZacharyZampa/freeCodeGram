@@ -65,9 +65,11 @@
                                     <a class="dropdown-item" href="/feed">
                                         Feed
                                     </a>
+                                    @if (Auth::user()->role == 'admin')
                                     <a class="dropdown-item" href="/user-admin">
                                         User Administration
                                     </a>
+                                    @endif
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
