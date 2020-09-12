@@ -18,7 +18,9 @@
                                     <span class="text-dark">{{ $post->user->username }}</span>
                                 </a>
                                 @if ($post->user->id != auth()->user()->id )
-                                    <a href="#" class="pl-3">Follow</a>
+                                    <follow-button user-id="{{ $post->user->id }}" follows="{{ $follows }}"></follow-button>
+                                @else
+                                    <button class="btn btn-outline-danger" @click="$event">Delete Post</button>
                                 @endif
                             </div>
                         </div>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Post;
+use App\User;
 use Illuminate\Http\Request;
 use Intervention\Image\Facades\Image;
 
@@ -51,7 +52,8 @@ class PostsController extends Controller
 
     // since the $post is the same name as the {post} route binding, it will take care of this for us if \App\Post is added too
     public function show(\App\Post $post) {
-        return view('posts.show', compact('post'));
+        $follows = (auth()->user()) ? auth()->user()->following->contains($post->user->id) : false;
+        return view('posts.show', compact('post', 'follows'));
     }
 
 }
